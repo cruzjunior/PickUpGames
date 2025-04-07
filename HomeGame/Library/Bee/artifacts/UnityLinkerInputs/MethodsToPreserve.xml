@@ -1,0 +1,73 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Artifact">
+			<method name="ArtifactFound"/>
+		</type>
+		<type fullname="GameManager">
+			<method name="HideUI"/>
+			<method name="ToggleCustomizationUI"/>
+			<method name="ToggleCustomizationUI"/>
+			<method name="ToggleCustomizationUI"/>
+			<method name="TurnOnTracker"/>
+		</type>
+		<type fullname="JerseyCustomization">
+			<method name="ChangeDetailColour"/>
+			<method name="ChangeDetailColour"/>
+			<method name="ChangeDetailColour"/>
+			<method name="ChangePattern"/>
+			<method name="ChangePattern"/>
+			<method name="ChangePrimaryColour"/>
+			<method name="ChangePrimaryColour"/>
+			<method name="ChangePrimaryColour"/>
+			<method name="ChangeSecondaryColour"/>
+			<method name="ChangeSecondaryColour"/>
+			<method name="ChangeSecondaryColour"/>
+			<method name="ChangeText"/>
+			<method name="ChangeText"/>
+			<method name="RotateJersey"/>
+		</type>
+		<type fullname="OnBoarding">
+			<method name="NextOnboardingItem"/>
+			<method name="NextOnboardingItem"/>
+			<method name="NextOnboardingItem"/>
+		</type>
+		<type fullname="TabsManager">
+			<method name="ShowTab"/>
+			<method name="ShowTab"/>
+			<method name="ShowTab"/>
+			<method name="ShowTab"/>
+			<method name="ShowTab"/>
+		</type>
+		<type fullname="UploadJersey">
+			<method name="ClosePermissionPopup"/>
+			<method name="ClosePermissionPopup"/>
+			<method name="OpenPermissionPopup"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
